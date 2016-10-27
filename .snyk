@@ -1,4 +1,4 @@
-version: v1.5.2
+version: v1.5.0
 ignore:
   'npm:request:20160119':
     - falcor-router-demo > pouchdb > request:
@@ -32,6 +32,12 @@ ignore:
     - selenium-webdriver > ws:
         reason: hi
         expires: '2016-11-18T15:33:22.087Z'
+    - ws:
+        reason: None given
+        expires: '2016-11-26T15:08:52.838Z'
+    - red > ws:
+        reason: None given
+        expires: '2016-11-26T15:08:52.838Z'
   'npm:handlebars:20151207':
     - snyk-demo-child > handlebars:
         reason: >-
@@ -104,6 +110,22 @@ ignore:
     - gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
         reason: hi
         expires: '2016-11-18T15:33:22.098Z'
+  'npm:bl:20160119':
+    - falcor-router-demo > pouchdb > levelup > bl:
+        reason: None given
+        expires: '2016-11-26T15:08:52.837Z'
+  'npm:gmail-js:20160721':
+    - gmail-js:
+        reason: None given
+        expires: '2016-11-26T15:08:52.838Z'
+  'npm:pouchdb:20160830':
+    - falcor-router-demo > pouchdb:
+        reason: None given
+        expires: '2016-11-26T15:08:52.838Z'
+  'npm:validator:20130705':
+    - azure-mgmt-storage > azure-common > validator:
+        reason: None given
+        expires: '2016-11-26T15:08:52.838Z'
 patch:
   'npm:bassmaster:20140927':
     - bassmaster:
@@ -111,9 +133,19 @@ patch:
   'npm:hawk:20160119':
     - azure-mgmt-storage > azure-common > request > hawk:
         patched: '2016-10-19T15:32:17.846Z'
+    - azure-mgmt-storage > azure-common > request > hawk:
+        patched: '2016-10-27T15:08:52.958Z'
   'npm:uglify-js:20150824':
     - snyk-demo-child > handlebars > uglify-js:
         patched: '2016-10-19T15:32:17.846Z'
   'npm:uglify-js:20151024':
     - snyk-demo-child > handlebars > uglify-js:
         patched: '2016-10-19T15:32:17.846Z'
+    - snyk-demo-child > handlebars > uglify-js:
+        patched: '2016-10-27T15:08:52.958Z'
+  'npm:request:20160119':
+    - azure-mgmt-storage > azure-common > request:
+        patched: '2016-10-27T15:08:52.958Z'
+  'npm:ws:20160104':
+    - red > ws:
+        patched: '2016-10-27T15:08:52.958Z'
