@@ -1,4 +1,4 @@
-version: v1.5.2
+version: v1.5.0
 ignore:
   'npm:request:20160119':
     - falcor-router-demo > pouchdb > request:
@@ -111,9 +111,19 @@ patch:
   'npm:hawk:20160119':
     - azure-mgmt-storage > azure-common > request > hawk:
         patched: '2016-10-19T15:32:17.846Z'
+    - azure-mgmt-storage > azure-common > request > hawk:
+        patched: '2016-11-14T15:07:54.416Z'
   'npm:uglify-js:20150824':
     - snyk-demo-child > handlebars > uglify-js:
         patched: '2016-10-19T15:32:17.846Z'
   'npm:uglify-js:20151024':
     - snyk-demo-child > handlebars > uglify-js:
         patched: '2016-10-19T15:32:17.846Z'
+    - snyk-demo-child > handlebars > uglify-js:
+        patched: '2016-11-14T15:07:54.416Z'
+  'npm:request:20160119':
+    - azure-mgmt-storage > azure-common > request:
+        patched: '2016-11-14T15:07:54.416Z'
+  'npm:ws:20160104':
+    - red > ws:
+        patched: '2016-11-14T15:07:54.416Z'
