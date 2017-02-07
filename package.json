@@ -36,10 +36,10 @@
     "npm": "^3.10.5",
     "q": "^1.4.1",
     "red": "0.0.0",
-    "selenium-webdriver": "^2.47.0",
+    "selenium-webdriver": "^3.0.0",
     "semver": "^5.3.0",
     "snyk-demo-child": "0.0.1",
-    "ws": "1.0.0",
+    "ws": "2.0.0",
     "yargs": "^4.8.1"
   },
   "devDependencies": {
