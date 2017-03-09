@@ -24,7 +24,7 @@
     "bluebird": "^3.4.1",
     "cats": "0.0.2",
     "falcor-hapi": "netflix/falcor-hapi",
-    "falcor-router-demo": "1.0.3",
+    "falcor-router-demo": "1.0.5",
     "gmail-js": "^0.5.0",
     "grunt": "^1.0.1",
     "gulp": "^3.9.1",
