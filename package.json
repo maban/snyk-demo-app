@@ -25,7 +25,7 @@
     "cats": "0.0.2",
     "falcor-hapi": "netflix/falcor-hapi",
     "falcor-router-demo": "1.0.3",
-    "gmail-js": "^0.5.0",
+    "gmail-js": "^0.6.13",
     "grunt": "^1.0.1",
     "gulp": "^3.9.1",
     "hapi": "^11.1.4",
