@@ -15,34 +15,38 @@
   ],
   "scripts": {
     "start": "node index.js",
-    "test": "snyk test"
+    "test": "snyk test",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
     "async": "^2.0.1",
     "azure-mgmt-storage": "^0.9.16",
-    "bassmaster": "1.5.1",
+    "bassmaster": "2.0.0",
     "bluebird": "^3.4.1",
     "cats": "0.0.2",
     "falcor-hapi": "netflix/falcor-hapi",
-    "falcor-router-demo": "1.0.3",
-    "gmail-js": "^0.5.0",
+    "falcor-router-demo": "1.0.5",
+    "gmail-js": "^0.6.13",
     "grunt": "^1.0.1",
-    "gulp": "^3.9.1",
-    "hapi": "^11.1.4",
-    "inert": "^3.2.0",
+    "gulp": "^4.0.0",
+    "hapi": "^13.4.0",
+    "inert": "^4.0.0",
     "lodash": "^4.14.0",
-    "marked": "0.3.5",
+    "marked": "4.0.10",
     "moment": "^2.14.1",
-    "npm": "^3.10.5",
+    "npm": "^7.21.0",
     "q": "^1.4.1",
     "red": "0.0.0",
-    "selenium-webdriver": "^2.47.0",
+    "selenium-webdriver": "^3.5.0",
     "semver": "^5.3.0",
     "snyk-demo-child": "0.0.1",
-    "ws": "1.0.0",
-    "yargs": "^4.8.1"
+    "ws": "5.2.3",
+    "yargs": "^13.2.4",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
-    "snyk": "^1.14.4-alpha.1"
-  }
+    "snyk": "^1.1024.0"
+  },
+  "snyk": true
 }
