@@ -1,4 +1,6 @@
-version: v1.5.2
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   'npm:request:20160119':
     - falcor-router-demo > pouchdb > request:
@@ -104,6 +106,7 @@ ignore:
     - gulp > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
         reason: hi
         expires: '2016-11-18T15:33:22.098Z'
+# patches apply the minimum changes required to fix a vulnerability
 patch:
   'npm:bassmaster:20140927':
     - bassmaster:
@@ -117,3 +120,13 @@ patch:
   'npm:uglify-js:20151024':
     - snyk-demo-child > handlebars > uglify-js:
         patched: '2016-10-19T15:32:17.846Z'
+  'npm:mime:20170907':
+    - azure-mgmt-storage > azure-common > request > form-data > mime:
+        patched: '2018-06-26T04:12:05.627Z'
+    - falcor-router-demo > pouchdb > request > mime:
+        patched: '2018-06-26T04:12:05.627Z'
+    - falcor-router-demo > pouchdb > request > form-data > mime:
+        patched: '2018-06-26T04:12:05.627Z'
+  'npm:tunnel-agent:20170305':
+    - azure-mgmt-storage > azure-common > request > tunnel-agent:
+        patched: '2018-06-26T04:12:05.627Z'
