@@ -1,48 +1,12 @@
 {
-  "name": "snyk-demo-app",
-  "version": "0.0.1",
-  "description": "A demo application for Snyk",
-  "homepage": "https://snyk.io/",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Snyk/snyk-demo-app.git"
-  },
-  "licenses": [
-    {
-      "type": "Apache License, Version 2.0",
-      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
-    }
-  ],
-  "scripts": {
-    "start": "node index.js",
-    "test": "snyk test"
-  },
-  "dependencies": {
-    "async": "^2.0.1",
-    "azure-mgmt-storage": "^0.9.16",
-    "bassmaster": "1.5.1",
-    "bluebird": "^3.4.1",
-    "cats": "0.0.2",
-    "falcor-hapi": "netflix/falcor-hapi",
-    "falcor-router-demo": "1.0.3",
-    "gmail-js": "^0.5.0",
-    "grunt": "^1.0.1",
-    "gulp": "^3.9.1",
-    "hapi": "^11.1.4",
-    "inert": "^3.2.0",
-    "lodash": "^4.14.0",
-    "marked": "0.3.5",
-    "moment": "^2.14.1",
-    "npm": "^3.10.5",
-    "q": "^1.4.1",
-    "red": "0.0.0",
-    "selenium-webdriver": "^2.47.0",
-    "semver": "^5.3.0",
-    "snyk-demo-child": "0.0.1",
-    "ws": "1.0.0",
-    "yargs": "^4.8.1"
-  },
-  "devDependencies": {
-    "snyk": "^1.14.4-alpha.1"
-  }
+    "name": "dependencygoat",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {}
 }
